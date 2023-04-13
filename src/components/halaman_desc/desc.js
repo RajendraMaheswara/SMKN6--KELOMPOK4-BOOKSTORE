@@ -26,7 +26,7 @@ function Desc() {
                   </p>
               </div>
           
-            <div className="commet mt-20 ml-20">
+            {/* <div className="commet mt-20 ml-20">
               <div className="comment flex ">
                 <div className="w-10 h-10 rounded-full overflow-hidden">
                   <img src={comment1} className="max-w-full h-auto" alt="Book Cover"/>
@@ -38,9 +38,9 @@ function Desc() {
               <p className="font-barlow text-sm ml-14">
                 What a delightful and magical book it is! It indeed transports readers to the wizarding world.
               </p>
-            </div>
+            </div> */}
 
-            <div className="commet mt-10 ml-20">
+            {/* <div className="commet mt-10 ml-20">
               <div className="comment flex ">
                 <div className="w-10 h-10 rounded-full overflow-hidden">
                   <img src={comment2} className="max-w-full h-auto" alt="Book Cover"/>
@@ -52,7 +52,7 @@ function Desc() {
               <p className="font-barlow text-sm ml-14">
                 What a delightful and magical book it is! It indeed transports readers to the wizarding world.
               </p>
-            </div>
+            </div> */}
           </div>
                     
         <div className="bg-transparent p-4 -ml-20"> 
