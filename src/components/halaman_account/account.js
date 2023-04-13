@@ -1,12 +1,12 @@
 import '../../../src/App.css';
 import '../../../src/index.css';
-
+import Bar from '../navbar';
 
 
 function Halaman_Account() {
   return (
-	<div>
-        
+	  <div>
+        <Bar />
     </div>
   );
 };
