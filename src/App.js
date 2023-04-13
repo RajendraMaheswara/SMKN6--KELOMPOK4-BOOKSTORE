@@ -6,9 +6,6 @@ function App() {
   return (
     <div>
       <Desc />
-      {/* <Content /> */}
-      {/* <Halaman_Login />/ */}
-      {/* <Halaman_Home_Guest /> */}
     </div>
   );
 }
