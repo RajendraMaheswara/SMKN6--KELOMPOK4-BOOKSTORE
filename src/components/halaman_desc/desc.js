@@ -4,7 +4,7 @@ import image from '../../assets/picbuku.png';
 import save from '../../assets/save.png';
 import share from '../../assets/share.png';
 import card from '../../assets/card.png';
-import Bar from '../navbar';
+import Bar from '../navbar/navbar';
 
 function Desc() {
   return (
