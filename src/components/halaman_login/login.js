@@ -1,8 +1,8 @@
-import '../App.css';
-import '../index.css';
-import logoBook from '../assets/icons8-book-65.png';
-import shenhe from '../assets/shenhe.jpg';
-import logoMessage from '../assets/icons8-secured-letter-90.png';
+import '../../App.css';
+import '../../index.css';
+import logoBook from '../../assets/icons8-book-65.png';
+import shenhe from '../../assets/shenhe.jpg';
+import logoMessage from '../../assets/icons8-secured-letter-90.png';
 
 function Halaman_Login() {
   return (
