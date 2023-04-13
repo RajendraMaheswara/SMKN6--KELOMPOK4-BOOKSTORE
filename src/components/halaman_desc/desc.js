@@ -4,7 +4,8 @@ import image from '../../assets/picbuku.png';
 import save from '../../assets/save.png';
 import share from '../../assets/share.png';
 import card from '../../assets/card.png';
-import profile from '../../assets/profile.jpg';
+import comment1 from '../../assets/comment1.jpg';
+import comment2 from '../../assets/comment2.jpg';
 import Bar from '../navbar/navbar';
 
 function Desc() {
@@ -25,17 +26,34 @@ function Desc() {
                   </p>
               </div>
           
-            <div className="comment">
-              <div className="w-10 h-10 rounded-full overflow-hidden mt-16 ml-16">
-                <img src={profile} className="max-w-full h-auto" alt="Book Cover"/>
+            <div className="commet mt-20 ml-20">
+              <div className="comment flex ">
+                <div className="w-10 h-10 rounded-full overflow-hidden">
+                  <img src={comment1} className="max-w-full h-auto" alt="Book Cover"/>
+                </div>
+            
+                <h1 className="font-poppins font-bold text-base ml-4 mt-2">Roberto Jordan</h1>
+                </div>
+
+              <p className="font-barlow text-sm ml-14">
+                What a delightful and magical book it is! It indeed transports readers to the wizarding world.
+              </p>
             </div>
 
-            <h1 className="font-poppins font-bold text-lg">Roberto Jordan</h1>
-              <p className="font-barlow text-sm">
-                Standard English (USA & UK)
+            <div className="commet mt-10 ml-20">
+              <div className="comment flex ">
+                <div className="w-10 h-10 rounded-full overflow-hidden">
+                  <img src={comment2} className="max-w-full h-auto" alt="Book Cover"/>
+                </div>
+            
+                <h1 className="font-poppins font-bold text-base ml-4 mt-2">Sabrina Cathrine</h1>
+                </div>
+
+              <p className="font-barlow text-sm ml-14">
+                What a delightful and magical book it is! It indeed transports readers to the wizarding world.
               </p>
+            </div>
           </div>
-        </div>
                     
         <div className="bg-transparent p-4 -ml-20"> 
           <h1 className="font-playfair-semi text-5xl mt-40">Harry Potter: Half Blood Prince</h1>
