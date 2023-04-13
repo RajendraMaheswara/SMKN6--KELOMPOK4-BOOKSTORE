@@ -1,11 +1,10 @@
 import './App.css';
-import Content from './components/content';
-import Login from './components/login';
+import Halaman_Home_Guest from './components/halaman_home_guest/home_guest';
 
 function App() {
   return (
     <div>
-      <Content />
+      <Halaman_Home_Guest />
       {/* <Login /> */}
     </div>
   );

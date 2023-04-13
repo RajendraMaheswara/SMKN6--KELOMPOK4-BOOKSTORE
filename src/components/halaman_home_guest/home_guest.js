@@ -1,9 +1,9 @@
-import '../App.css';
-import '../index.css';
-import Bar from './navbar';
-import tereliyePergi from '../assets/tereliye-pergi.jpg';
+import '../..//App.css';
+import '../../index.css';
+import Bar from '../navbar/navbar';
+import tereliyePergi from '../../assets/tereliye-pergi.jpg';
 
-function Content() {
+function Halaman_Home_Guest() {
   return (
     <div> 
       <Bar />
@@ -53,4 +53,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Halaman_Home_Guest;

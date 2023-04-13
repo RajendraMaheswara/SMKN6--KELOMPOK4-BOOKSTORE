@@ -1,9 +1,9 @@
-import '../App.css';
-import '../index.css';
-import logoBook from '../assets/icons8-book-65.png';
-import logoBasket from '../assets/icons8-shopping-basket-90.png';
-import logoMessage from '../assets/icons8-secured-letter-90.png';
-import logoAccount from '../assets/icons8-male-user-100.png';
+import '../../../src/App.css';
+import '../../../src/index.css';
+import logoBook from '../../assets/icons8-book-65.png';
+import logoBasket from '../../assets/icons8-shopping-basket-90.png';
+import logoMessage from '../../assets/icons8-secured-letter-90.png';
+import logoAccount from '../../assets/icons8-male-user-100.png';
 
 
 

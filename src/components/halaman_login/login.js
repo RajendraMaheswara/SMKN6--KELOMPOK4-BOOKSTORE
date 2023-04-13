@@ -4,7 +4,7 @@ import logoBook from '../assets/icons8-book-65.png';
 import shenhe from '../assets/shenhe.jpg';
 import logoMessage from '../assets/icons8-secured-letter-90.png';
 
-function Login() {
+function Halaman_Login() {
   return (
     <div className='bg-white-buram w-screen h-screen flex items-center justify-center' id='kotak-tengah'>
       <div className='bg-white-apik w-3/4 h-3/4 rounded-xl grid grid-cols-2'>
@@ -26,4 +26,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Halaman_Login;
