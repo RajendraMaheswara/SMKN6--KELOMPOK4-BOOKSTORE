@@ -6,8 +6,9 @@ import Halaman_Login from './components/halaman_login/login';
 function App() {
   return (
     <div>
-      <Desc />
+      {/* <Desc /> */}
       {/* <Halaman_Login /> */}
+      <Halaman_Home_Guest />
     </div>
   );
 }
