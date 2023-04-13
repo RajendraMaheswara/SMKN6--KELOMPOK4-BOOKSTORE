@@ -1,9 +1,9 @@
-import '../App.css';
-import '../index.css';
-import logoBook from '../assets/icons8-book-65.png';
-import logoBasket from '../assets/icons8-shopping-basket-90.png';
-import logoMessage from '../assets/icons8-secured-letter-90.png';
-import logoAccount from '../assets/icons8-male-user-100.png';
+import '../../../src/App.css';
+import '../../../src/index.css';
+import logoBook from '../../assets/icons8-book-65.png';
+import logoBasket from '../../assets/icons8-shopping-basket-90.png';
+import logoMessage from '../../assets/icons8-secured-letter-90.png';
+import logoAccount from '../../assets/icons8-male-user-100.png';
 
 
 
@@ -31,7 +31,7 @@ function Bar() {
 				<a href='#' className='p-2'>
 				<img src={logoMessage} className='h-6 w-6' />
     			</a>
-				<a href='#' className='p-2'>
+				<a href='../profile/profil.js' className='p-2'>
 				<img src={logoAccount} className='h-6 w-6' />
     			</a>
 			</div>
