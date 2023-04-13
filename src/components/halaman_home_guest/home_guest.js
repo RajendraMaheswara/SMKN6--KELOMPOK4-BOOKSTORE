@@ -23,7 +23,7 @@ function Halaman_Home_Guest() {
             <div className='col-span-3'>
               <div className='grid grid-cols-4 gap-3' id='buku-terbaru'>
                   <div className='col-span-1'>
-                    <img className='hover:object-scale-down' src={tereliyePergi}/>
+                    {/* <img className='hover:object-scale-down' src={tereliyePergi}/> */}
                     {/* <h3 className='font-medium text-lg mt-2'>Tereliye Pergi</h3>
                     <p className='text-gray-500 mt-1'>Tereliye</p>
                     <p className='text-red-500 mt-1'>Rp. 100.000</p> */}
