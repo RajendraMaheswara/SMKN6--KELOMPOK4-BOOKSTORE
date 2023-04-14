@@ -8,13 +8,13 @@ function App() {
   return (
     <div>
       {/* <Halaman_Home_Guest /> */}
-      <Halaman_Account />
+      {/* <Halaman_Account /> */}
       {/* <Login /> */}
       <Desc />
       {/* <Halaman_Login /> */}
       {/* <Desc /> */}
       {/* <Halaman_Login /> */}
-      <Halaman_Home_Guest />
+      {/* <Halaman_Home_Guest /> */}
     </div>
   );
 }
