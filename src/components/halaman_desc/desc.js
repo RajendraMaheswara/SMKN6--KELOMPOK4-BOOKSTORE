@@ -10,7 +10,7 @@ import Bar from '../navbar/navbar';
 
 function Desc() {
   return (
-    <div>
+    <div className='bg-bg_cream'>
       <Bar />
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-transparent p-4"> 
