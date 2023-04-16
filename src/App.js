@@ -13,7 +13,7 @@ function App() {
       {/* <Halaman_Home_Guest /> */}
       {/* <Halaman_Account /> */}
       {/* <Login />*/}
-      { /* <Desc /> */}
+      { <Desc /> }
       {/* <Halaman_Login /> */}
       {/* <Desc /> */}
       {/* <Halaman_Home_Guest /> */}
