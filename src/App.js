@@ -15,7 +15,7 @@ function App() {
       {/* <Login /> */}
       {/* <Desc /> */}
       {/* <Halaman_Account /> */}
-      <Halaman_Keranjang />
+      {/* <Halaman_Keranjang /> */}
       {/* <Halaman_Login /> */}
       {/* <Test /> */}
     </div>
