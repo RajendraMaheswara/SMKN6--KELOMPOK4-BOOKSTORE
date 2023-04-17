@@ -1,36 +1,30 @@
 import '../..//App.css';
 import '../../index.css';
 import Bar from '../navbar/navbar';
+import Books from '../../assets/books.png';
 import tereliyePergi from '../../assets/tereliye-pergi.jpg';
 
 function Halaman_Home_Guest() {
   return (
     <div> 
       <Bar />
-      <div className='mx-auto w-4/5 h-100 bg-light-cream my-14 p-4 rounded-md' id='kotak-top'>
-          <div className="grid grid-cols-5 gap-4">
-            <div className="col-span-2">
+      <div className='mx-auto w-4/5 h-4/5 bg-light-cream my-14 py-4 rounded-md' id='kotak-top'>
+          <div className="grid grid-cols-12 gap-4">
+            <div className='col-span-2'>
+              <img className='transform scale-75' src={Books}/>
+            </div>
+              <div className='col-span-4'>
               <h1 className='text-4xl mt-10 ml-2 antialiased text-dark-purple bold font-bold'>Temukan Buku Terbaru</h1>
               <div className='mt-3'>
                 <p className='ml-3'>Jangan lewatkan buku-buku baru yang telah dirilis!</p>
                 <p className='ml-3'>Temukan buku-buku terbaru dari segala macam genre</p>
               </div>
-              
               <a>
                 <button className='bg-brown-cream rounded-lg antialiased font-sans text-white py-2 px-2 ml-3 mt-5'>Buku Terbaru</button>
               </a>
-            </div>
-            <div className='col-span-3'>
-              <div className='grid grid-cols-4 gap-3' id='buku-terbaru'>
-                  <div className='col-span-1'>
-                    {/* <img className='hover:object-scale-down' src={tereliyePergi}/> */}
-                    {/* <h3 className='font-medium text-lg mt-2'>Tereliye Pergi</h3>
-                    <p className='text-gray-500 mt-1'>Tereliye</p>
-                    <p className='text-red-500 mt-1'>Rp. 100.000</p> */}
-                  </div>
-                  <div></div>
-                  <div></div>
               </div>
+            <div className='col-span-6 '>
+              
             </div>
           </div>
       </div>
