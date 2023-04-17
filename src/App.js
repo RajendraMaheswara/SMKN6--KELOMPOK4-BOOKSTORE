@@ -9,16 +9,8 @@ import Test2 from './components/tes2';
 
 function App() {
   return (
-    
     <div>
       <Halaman_Home_Guest />
-      {/* <Halaman_Account /> */}
-      {/* <Login /> */}
-      {/* <Desc /> */}
-      {/* <Halaman_Account /> */}
-      {/* <Halaman_Keranjang /> */}
-      {/* <Halaman_Login /> */}
-      {/* <Test /> */}
     </div>
   );
 }
