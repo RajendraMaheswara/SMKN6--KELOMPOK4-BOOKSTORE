@@ -5,10 +5,10 @@ import Halaman_Home_Guest from './components/halaman_home_guest/home_guest';
 import Halaman_Login from './components/halaman_login/login';
 import Halaman_Keranjang from './components/halaman_keranjang/keranjang';
 import Test from './components/tes';
+import Test2 from './components/tes2';
 
 function App() {
   return (
-    
     <div>
       {/* <Halaman_Home_Guest /> */}
       {/* <Halaman_Account /> */}
@@ -18,9 +18,13 @@ function App() {
       {/* <Desc /> */}
       {/* <Halaman_Home_Guest /> */}
       {/*<Halaman_Keranjang/>*/}
+      {<Halaman_Account />}
+      {/* <Login /> */}
+      {/* <Desc /> */}
+      {/* <Halaman_Account /> */}
+      {/*Halaman_Keranjang />*/}
       {/* <Halaman_Login /> */}
       {/* <Test /> */}
-
     </div>
   );
 }
